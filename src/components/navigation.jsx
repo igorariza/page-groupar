@@ -19,7 +19,11 @@ export class Navigation extends Component {
               <span className="icon-bar"></span>{" "}
             </button>
             <a className="navbar-brand page-scroll" href="#page-top">
-              <img src="img/groupar.png" className="img-responsive imglogo" alt="" />
+              <div className="img-header-logo">
+              <img src="img/logo-groupar.png" className="imglogoheader" alt="" />
+              {" "}
+              <img src="img/groupar.png" className="imglogo" alt="" />
+              </div>
             </a>{" "}
           </div>
 

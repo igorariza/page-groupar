@@ -105,6 +105,9 @@ hr {
 #menu.navbar-default .navbar-nav > li > a:hover:after {
 	width: 100%;
 }
+.img-header-logo{
+	max-width: 300px;
+}
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	background-color: transparent;
 }
@@ -194,7 +197,10 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	-o-background-size: cover;
 }
 .imglogo{
-	max-width: 180px;
+	width: 170px;
+}
+.imglogoheader{
+	width: 70px;
 }
 .intro .overlay {
 	background: rgba(0,0,0,0.2);
