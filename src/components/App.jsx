@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import Navigation from './navigation';
 import Header from './header';
-import Features from './features';
 import About from './about';
 import Services from './services';
 import Gallery from './gallery';
@@ -37,14 +36,13 @@ export class App extends Component {
     return (
       <div>
         <Navigation />
-        <Header data={this.state.resumeData.Header}/>
-        <Features data={this.state.resumeData.Features}/>
-        <About  data={this.state.resumeData.About}/>
-        <Services  data={this.state.resumeData.Services}/>
-        <Gallery />
-        <Testimonials  data={this.state.resumeData.Testimonials}/>
-        <Team  data={this.state.resumeData.Team}/>
-        <Contact  data={this.state.resumeData.Contact}/>
+        <Header data={this.state.landingPageData.Header} />
+        <Services data={this.state.landingPageData.Services} />
+        <Gallery />        
+        <About data={this.state.landingPageData.About} />
+        <Team data={this.state.landingPageData.Team} />
+        <Testimonials data={this.state.landingPageData.Testimonials} />        
+        <Contact data={this.state.landingPageData.Contact} />
       </div>
     )
   }

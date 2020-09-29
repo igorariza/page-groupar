@@ -19,7 +19,7 @@ export class Navigation extends Component {
               <span className="icon-bar"></span>{" "}
             </button>
             <a className="navbar-brand page-scroll" href="#page-top">
-            <img src="img/groupar.png" className="img-responsive imglogo" alt=""/>
+              <img src="img/groupar.png" className="img-responsive imglogo" alt="" />
             </a>{" "}
           </div>
 
@@ -28,16 +28,6 @@ export class Navigation extends Component {
             id="bs-example-navbar-collapse-1"
           >
             <ul className="nav navbar-nav navbar-right">
-              <li>
-                <a href="#features" className="page-scroll">
-                Característica
-                </a>
-              </li>
-              <li>
-                <a href="#about" className="page-scroll">
-                  Nosotros
-                </a>
-              </li>
               <li>
                 <a href="#services" className="page-scroll">
                   Servicios
@@ -49,8 +39,8 @@ export class Navigation extends Component {
                 </a>
               </li>
               <li>
-                <a href="#testimonials" className="page-scroll">
-                  Testimonios
+                <a href="#about" className="page-scroll">
+                  Nosotros
                 </a>
               </li>
               <li>
@@ -58,6 +48,12 @@ export class Navigation extends Component {
                   Equipo
                 </a>
               </li>
+              <li>
+                <a href="#testimonials" className="page-scroll">
+                  Testimonios
+                </a>
+              </li>
+
               <li>
                 <a href="#contact" className="page-scroll">
                   Contacto
