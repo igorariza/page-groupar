@@ -69,9 +69,27 @@ hr {
 	padding: 15px;
 	transition: all 0.8s;
 }
+.menu-header{
+	top: 0;
+	border-width: 0 0 1px;
+	padding-right: 0;
+	padding-left: 0;
+	max-height: 340px;
+}
+/* --- Clase que agregaremos cuando el usuario haga scroll --- */
+.menu-fixed {
+	position:fixed;
+	z-index:5;
+	max-width:80%;
+	width:100%;
+	box-shadow:0px 4px 3px rgba(0,0,0,.5);
+	top: 0;
+	border-width: 0 0 1px;
+	padding-right: 0;
+	padding-left: 0;
+}
 #menu.navbar-default {
 	background-color: aliceblue;
-	border-color: rgba(231, 231, 231, 0);
 	box-shadow: 0 0 10px rgba(0,0,0,0.15)
 }
 #menu a.navbar-brand {
@@ -93,7 +111,7 @@ hr {
 }
 #menu.navbar-default .navbar-nav > li > a:after {
 	display: block;
-	position: absolute;
+	position: fixed;
 	left: 0;
 	bottom: -1px;
 	width: 0;
@@ -106,14 +124,14 @@ hr {
 	width: 100%;
 }
 .img-header-logo{
-	max-width: 300px;
+	max-width: 250px;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a:after, .navbar-default .navbar-nav > .active > a:hover:after, .navbar-default .navbar-nav > .active > a:focus:after {
 	display: block !important;
-	position: absolute !important;
+	position: fixed !important;
 	left: 0 !important;
 	bottom: -1px !important;
 	width: 100% !important;
@@ -123,7 +141,7 @@ hr {
 	transition: width 0.2s !important;
 }
 .navbar-toggle {
-	border-radius: 0;
+	border-radius: 2;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 	background-color: #fff;
@@ -583,7 +601,7 @@ color: #777;
 }
 
 @media (max-width: 768px) {
-#about img {
-	margin: 50px 0;
-}
+		#about img {
+			margin: 50px 0;
+		}
 }

@@ -116,24 +116,6 @@ export const Services = React.memo(function SolidGameCard() {
                   }
                 />
               </Grid>
-              <Grid item>
-                <CustomCard
-                  classes={styles3}
-                  title={'Marketing'}
-                  subtitle={'What are you waiting?'}
-                  image={'https://images.unsplash.com/photo-1557838923-2985c318be48?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80'}
-                />
-              </Grid>
-              <Grid item>
-                <CustomCard
-                  classes={styles4}
-                  title={'Agricultura'}
-                  subtitle={'Are you ready?'}
-                  image={
-                    'https://images.unsplash.com/photo-1529313780224-1a12b68bed16?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80'
-                  }
-                />
-              </Grid>
             </Grid>
           </>
           {/* {this.props.data
