@@ -47,11 +47,6 @@ export class Navigation extends Component {
                 </a>
               </li>
               <li>
-                <a href="#team" className="page-scroll">
-                  Equipo
-                </a>
-              </li>
-              <li>
                 <a href="#testimonials" className="page-scroll">
                   Testimonios
                 </a>

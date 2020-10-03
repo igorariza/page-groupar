@@ -48,7 +48,7 @@ $(document).ready(function(){
 		if ( $(window).scrollTop() >= altura ){
 			$('.menu-header').addClass('menu-fixed');
 		} else {
-			$('.menu-header').removeClass('menu-fixed');
+      $('.menu-header').removeClass('menu-fixed');
 		}
 	});
  
