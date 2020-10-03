@@ -41,6 +41,18 @@ function main() {
 		
 }());
 
+$(document).ready(function(){
+	var altura = $('.menu-header').offset().top;
+	
+	$(window).on('scroll', function(){
+		if ( $(window).scrollTop() >= altura ){
+			$('.menu-header').addClass('menu-fixed');
+		} else {
+			$('.menu-header').removeClass('menu-fixed');
+		}
+	});
+ 
+});
 
 }
 main();
