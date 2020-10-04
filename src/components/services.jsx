@@ -106,7 +106,7 @@ export const Services = React.memo(function SolidGameCard() {
                   }
                 />
               </Grid>
-              {/* <Grid item>
+              <Grid item>
                 <CustomCard
                   classes={styles2}
                   title={'Software'}
@@ -115,7 +115,7 @@ export const Services = React.memo(function SolidGameCard() {
                     'https://images.unsplash.com/photo-1601342630314-8427c38bf5e6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=637&q=80'
                   }
                 />
-              </Grid> */}
+              </Grid>
             </Grid>
           </>
           {/* {this.props.data
