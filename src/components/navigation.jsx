@@ -20,8 +20,8 @@ export class Navigation extends Component {
             </button>
             <a className="navbar-brand page-scroll" href="#page-top">
               <div className="img-header-logo">
-              <img src="img/logo-groupar.png" className="imglogoheader" alt="groupar" />
-              <img src="img/groupar.png" className="imglogo" alt="groupar" />
+                <img src="img/logo-groupar.png" className="imglogoheader" alt="groupar" />
+                <img src="img/groupar.png" className="imglogo" alt="groupar" />
               </div>
             </a>
           </div>
@@ -31,6 +31,30 @@ export class Navigation extends Component {
             id="bs-example-navbar-collapse-1"
           >
             <ul className="nav navbar-nav navbar-right">
+              <li>
+                <a
+                  href={this.props.data ? this.props.data.facebook : "/"}
+                >
+                  <i className="fa fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href={this.props.data ? this.props.data.facebook : "/"}
+                >
+                  <i className="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href={this.props.data ? this.props.data.twitter : "/"}>
+                  <i className="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href={this.props.data ? this.props.data.youtube : "/"}>
+                  <i className="fa fa-youtube"></i>
+                </a>
+              </li>
               <li>
                 <a href="#services" className="page-scroll">
                   Servicios
@@ -44,17 +68,6 @@ export class Navigation extends Component {
               <li>
                 <a href="#about" className="page-scroll">
                   Nosotros
-                </a>
-              </li>
-              <li>
-                <a href="#testimonials" className="page-scroll">
-                  Testimonios
-                </a>
-              </li>
-
-              <li>
-                <a href="#contact" className="page-scroll">
-                  Contacto
                 </a>
               </li>
             </ul>
