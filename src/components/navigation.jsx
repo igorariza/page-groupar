@@ -56,6 +56,18 @@ export class Navigation extends Component {
                 </a>
               </li>
               <li>
+              <span></span>{" "}              
+              </li>
+              <li>
+              <span></span>{" "}              
+              </li>
+              <li>
+              <span></span>{" "}              
+              </li>
+              <li>
+              <span></span>{" "}              
+              </li>
+              <li>
                 <a href="#services" className="page-scroll">
                   Servicios
                 </a>
