@@ -35,37 +35,26 @@ export class Navigation extends Component {
                 <a
                   href={this.props.data ? this.props.data.facebook : "/"}
                 >
-                  <i className="fa fa-instagram"></i>
+                  {/* <i className="fa fa-instagram"></i> */}
+                  <img src="img/instagram.png" className="fa-instagram social-icon" alt="groupar" />
                 </a>
               </li>
               <li>
                 <a
                   href={this.props.data ? this.props.data.facebook : "/"}
-                >
-                  <i className="fa fa-facebook"></i>
+                >                  
+                  <img src="img/facebook.png" className="fa-facebook social-icon" alt="groupar" />
                 </a>
               </li>
               <li>
                 <a href={this.props.data ? this.props.data.twitter : "/"}>
-                  <i className="fa fa-twitter"></i>
+                  <img src="img/twitter.png" className="fa-twitter social-icon" alt="groupar" />
                 </a>
               </li>
               <li>
                 <a href={this.props.data ? this.props.data.youtube : "/"}>
-                  <i className="fa fa-youtube"></i>
+                  <img src="img/youtube.png" className="fa-youtube social-icon" alt="groupar" />
                 </a>
-              </li>
-              <li>
-              <span></span>{" "}              
-              </li>
-              <li>
-              <span></span>{" "}              
-              </li>
-              <li>
-              <span></span>{" "}              
-              </li>
-              <li>
-              <span></span>{" "}              
               </li>
               <li>
                 <a href="#services" className="page-scroll">

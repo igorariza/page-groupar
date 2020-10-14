@@ -217,6 +217,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .imglogo{
 	width: 170px;
 }
+.social-icon{
+	width: 40px;
+}
 .imglogoheader{
 	width: 70px;
 }
