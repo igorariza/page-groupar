@@ -6,10 +6,10 @@ import Title from "../UI/Title/Title";
 import Subtitle from "../UI/Subtitle/Subtitle";
 
 // Images
-const bogliasco = "https://i.imgur.com/Gu5Cznz.jpg";
-const countyClare = "https://i.imgur.com/idjXzVQ.jpg";
-const craterRock = "https://i.imgur.com/8DYumaY.jpg";
-const giauPass = "https://i.imgur.com/8IuucQZ.jpg";
+const bogliasco = "https://res.cloudinary.com/groupar/image/upload/v1603228791/groupar_f74hml.png";
+const countyClare = "https://res.cloudinary.com/groupar/image/upload/v1603228791/groupar_f74hml.png";
+const craterRock = "https://res.cloudinary.com/groupar/image/upload/v1603228791/groupar_f74hml.png";
+const giauPass = "https://res.cloudinary.com/groupar/image/upload/v1603228791/groupar_f74hml.png";
 
 const app = () => {
   return (
@@ -35,10 +35,10 @@ const app = () => {
       }}
     >
       <OverlayContainer>
-        <Wrapper>
+        {/* <Wrapper>
           <Title>Slider</Title>
           <Subtitle>Slides' background attachment set to fixed</Subtitle>
-        </Wrapper>
+        </Wrapper> */}
       </OverlayContainer>
 
       <Slide
