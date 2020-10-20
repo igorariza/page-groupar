@@ -8,6 +8,7 @@ import Testimonials from './components/testimonials';
 import Team from './components/Team';
 import Contact from './components/contact';
 import JsonData from './data/data.json';
+import WhatsApp from './components/UI/Icon/whatsapp'
 
 export class App extends Component {
   state = {
@@ -25,6 +26,7 @@ export class App extends Component {
     return (
       <div>
         <Navigation />
+        <WhatsApp />
         <Header data={this.state.landingPageData.Header} />
         <Services data={this.state.landingPageData.Services} />
         <Gallery />        

@@ -7,6 +7,7 @@ import Gallery from './gallery';
 import Testimonials from './testimonials';
 import Team from './Team';
 import Contact from './contact';
+import WhatsApp from '../components/UI/Icon/whatsapp'
 import $ from 'jquery';
 
 export class App extends Component {
@@ -36,6 +37,7 @@ export class App extends Component {
     return (
       <div>
         <Navigation />
+        <WhatsApp />
         <Header data={this.state.landingPageData.Header} />
         <Services data={this.state.landingPageData.Services} />
         <Gallery />        

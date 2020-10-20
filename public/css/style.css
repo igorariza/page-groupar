@@ -319,7 +319,7 @@ header .intro-text {
 /* Services Section */
 #services {
 	padding: 100px 0;
-	background: linear-gradient(to right, #00BD7E 0%, #00B9C6 100%);
+	background: linear-gradient(to right, #ffffff 0%, #ffffff 100%);
 	color: #fff;
 }
 #services .service-desc {
@@ -362,6 +362,7 @@ header .intro-text {
 /* Portfolio Section */
 #portfolio {
 	padding: 100px 0;
+	background: linear-gradient(to right, #00BD7E 0%, #00B9C6 100%);
 }
 .portfolio-item {
 	margin: 1px -15px 0 -14px;
@@ -403,6 +404,32 @@ header .intro-text {
 }
 .hover-bg:hover .hover-text {
 	opacity: 1;
+}
+/* Whatsapp */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:30px;
+	text-align:center;
+  font-size:40px;
+	box-shadow: 2px 2px 3px #999;
+	z-index:100;
+	-webkit-transition: padding 2s;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:10px;
+	margin-right: 20px;
 }
 /* Testimonials Section */
 #testimonials {
