@@ -6,10 +6,10 @@ import Title from "../UI/Title/Title";
 import Subtitle from "../UI/Subtitle/Subtitle";
 
 // Images
-const bogliasco = "https://res.cloudinary.com/groupar/image/upload/v1603162372/groupar_sf9exe.png";
-const countyClare = "https://res.cloudinary.com/groupar/image/upload/v1603162372/groupar_sf9exe.png";
-const craterRock = "https://res.cloudinary.com/groupar/image/upload/v1603162372/groupar_sf9exe.png";
-const giauPass = "https://res.cloudinary.com/groupar/image/upload/v1603162372/groupar_sf9exe.png";
+const bogliasco = "https://res.cloudinary.com/groupar/image/upload/v1603228791/groupar_f74hml.png";
+const countyClare = "https://res.cloudinary.com/groupar/image/upload/v1603228791/groupar_f74hml.png";
+const craterRock = "https://res.cloudinary.com/groupar/image/upload/v1603228791/groupar_f74hml.png";
+const giauPass = "https://res.cloudinary.com/groupar/image/upload/v1603228791/groupar_f74hml.png";
 
 const app = () => {
   return (

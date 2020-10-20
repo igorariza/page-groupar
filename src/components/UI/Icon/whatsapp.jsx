@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+
 export class WhatsApp extends Component {
   render() {
     return (
@@ -10,6 +11,7 @@ export class WhatsApp extends Component {
         </a>
 
       </div>
+      
     );
   }
 }
