@@ -7,6 +7,7 @@ import Gallery from './gallery';
 import Testimonials from './testimonials';
 import Team from './Team';
 import Contact from './contact';
+import WhatsApp from '../components/UI/Icon/whatsapp'
 import $ from 'jquery';
 
 export class App extends Component {
@@ -36,12 +37,12 @@ export class App extends Component {
     return (
       <div>
         <Navigation />
+        <WhatsApp />
         <Header data={this.state.landingPageData.Header} />
         <Services data={this.state.landingPageData.Services} />
         <Gallery />        
         <About data={this.state.landingPageData.About} />
-        <Team data={this.state.landingPageData.Team} />
-        <Testimonials data={this.state.landingPageData.Testimonials} />        
+        <Team data={this.state.landingPageData.Team} />   
         <Contact data={this.state.landingPageData.Contact} />
       </div>
     )
