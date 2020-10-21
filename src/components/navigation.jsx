@@ -18,7 +18,7 @@ export class Navigation extends Component {
               <span className="icon-bar"></span>{" "}
               <span className="icon-bar"></span>{" "}
             </button>
-            <a className="navbar-brand page-scroll" href="#page-top">
+            <a className="navbar-nav page-scroll" href="#page-top">
               <div className="img-header-logo">
                 <img src="img/logo-groupar.png" className="imglogoheader" alt="groupar" />
                 <img src="img/groupar.png" className="imglogo" alt="groupar" />
@@ -30,7 +30,30 @@ export class Navigation extends Component {
             className="collapse navbar-collapse"
             id="bs-example-navbar-collapse-1"
           >
-            <ul className="nav navbar-nav navbar-right">
+            
+            <ul className="nav navbar-nav navbar-right" id="border-separator">
+              <li>
+                <a href="#services" className="page-scroll">
+                  Servicios
+                </a>
+              </li>
+              <li>
+                <a href="#portfolio" className="page-scroll">
+                  Galeria
+                </a>
+              </li>
+              <li>
+                <a href="#about" className="page-scroll">
+                  Ingresar
+                </a>
+              </li>
+              <li>
+                <a href="#about" className="page-scroll">
+                  Nosotros
+                </a>
+              </li>              
+            </ul>
+            <ul className="navbar-nav navbar-right">
               <li>
                 <a
                   href={this.props.data ? this.props.data.facebook : "/"}
@@ -54,21 +77,6 @@ export class Navigation extends Component {
               <li>
                 <a href={this.props.data ? this.props.data.youtube : "/"}>
                   <img src="img/youtube.png" className="fa-youtube social-icon" alt="groupar" />
-                </a>
-              </li>
-              <li>
-                <a href="#services" className="page-scroll">
-                  Servicios
-                </a>
-              </li>
-              <li>
-                <a href="#portfolio" className="page-scroll">
-                  Galeria
-                </a>
-              </li>
-              <li>
-                <a href="#about" className="page-scroll">
-                  Nosotros
                 </a>
               </li>
             </ul>

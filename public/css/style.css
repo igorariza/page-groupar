@@ -88,6 +88,13 @@ hr {
 	padding-right: 0;
 	padding-left: 0;
 }
+#border-separator li {
+	display: inline; 
+	margin-left: 3px; 
+	padding-left: 3px;
+	border-left:1px solid;
+}
+
 #menu.navbar-default {
 	background-color: aliceblue;
 	box-shadow: 0 0 10px rgba(0,0,0,0.15)
@@ -151,13 +158,14 @@ hr {
 	background-color: #608dfd;
 }
 .section-title {
-	margin-bottom: 70px;
+	margin-bottom: 40px;
 }
 .section-title h2 {
 	position: relative;
 	margin-top: 10px;
 	margin-bottom: 15px;
 	padding-bottom: 15px;
+	text-decoration-color: #00B9C6;
 }
 .section-title h2::after {
 	position: absolute;
@@ -318,7 +326,7 @@ header .intro-text {
 }
 /* Services Section */
 #services {
-	padding: 100px 0;
+	padding: 50px 0;
 	background: linear-gradient(to right, #ffffff 0%, #ffffff 100%);
 	color: #fff;
 }
