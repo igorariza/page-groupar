@@ -86,12 +86,12 @@ export const Services = React.memo(function SolidGameCard() {
   return (
     <div id="services" className="text-center">
       <div className="container">
-        <div className="section-title">
-          <h2>Nuestros servicios</h2>
-          <p>
+        <div className="section-title" color="red">
+          <h2><font color="#00B9C6">SERVICIOS</font></h2>
+          {/* <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
             dapibus leonec.
-            </p>
+            </p> */}
         </div>
         <div className="row">
           <>
