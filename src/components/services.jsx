@@ -99,7 +99,7 @@ export const Services = React.memo(function SolidGameCard() {
               <Grid item>
                 <CustomCard
                   classes={styles}
-                  title={'Dron'}
+                  title={'SIGE'}
                   subtitle={'VÍDEO Y FOTO AÉREA CON DRON'}
                   image={
                     'https://images.unsplash.com/photo-1512696316862-6dd7a028a2af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80'
