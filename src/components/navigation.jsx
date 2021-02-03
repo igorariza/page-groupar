@@ -4,7 +4,8 @@ export class Navigation extends Component {
   render() {
     return (
       <nav id="menu" className="menu-header navbar-default">
-        <div className="container">
+        <div className="container" id="container-menu">
+        <div id="menu-container">
           <div className="navbar-header">
             <button
               type="button"
@@ -31,29 +32,7 @@ export class Navigation extends Component {
             id="bs-example-navbar-collapse-1"
           >
             
-            <ul className="nav navbar-nav navbar-right" id="border-separator">
-              <li>
-                <a href="#services" className="page-scroll">
-                  Servicios
-                </a>
-              </li>
-              <li>
-                <a href="#portfolio" className="page-scroll">
-                  Galeria
-                </a>
-              </li>
-              <li>
-                <a href="#about" className="page-scroll">
-                  Ingresar
-                </a>
-              </li>
-              <li>
-                <a href="#about" className="page-scroll">
-                  Nosotros
-                </a>
-              </li>              
-            </ul>
-            <ul className="navbar-nav navbar-right">
+            <ul className="navbar-nav navbar-right" id="icon-social">
               <li>
                 <a
                   href={this.props.data ? this.props.data.facebook : "/"}
@@ -80,8 +59,31 @@ export class Navigation extends Component {
                 </a>
               </li>
             </ul>
+            <ul className="nav navbar-nav navbar-right" id="border-separator">
+              <li>
+                <a href="#services" className="page-scroll">
+                  Servicios
+                </a>
+              </li>
+              <li>
+                <a href="#portfolio" className="page-scroll">
+                  Galeria
+                </a>
+              </li>
+              <li>
+                <a href="#about" className="page-scroll">
+                  Ingresar
+                </a>
+              </li>
+              <li>
+                <a href="#about" className="page-scroll">
+                  Nosotros
+                </a>
+              </li>              
+            </ul>
+            </div>
+            </div>
           </div>
-        </div>
       </nav>
     );
   }

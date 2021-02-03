@@ -88,11 +88,26 @@ hr {
 	padding-right: 0;
 	padding-left: 0;
 }
-#border-separator li {
-	display: inline; 
+#border-separator li {	
 	margin-left: 3px; 
 	padding-left: 3px;
 	border-left:1px solid;
+	align-self: flex-end;
+}
+#container-menu{
+	/* padding-right: 0px !important;
+	padding-left: 0px !important;
+	margin-right: 0px !important;
+	margin-left: 0px !important; */
+	display:flex; 
+}
+#menu-container{
+	display:flex; 
+	justify-content: space-around;
+}
+#icon-social{
+	align-self: flex-start;
+
 }
 
 #menu.navbar-default {
@@ -222,11 +237,27 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background-size: cover;
 	-o-background-size: cover;
 }
+.buttondown{
+	width: 40%;
+	display: block;
+	margin: 0 auto;
+}
+@media (max-width: 540px) {
+  .buttondown  {
+    width: 30%;
+		display: block;
+		margin: 0 auto;
+  }
+}
 .imglogo{
 	width: 170px;
 }
 .social-icon{
-	width: 40px;
+	width: 30px;
+}
+.container-icon-social{
+	display:flex;
+	 align-items: center;
 }
 .imglogoheader{
 	width: 70px;
