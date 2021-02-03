@@ -52,8 +52,6 @@ ul, ol {
 }
 ul, ol {
 	padding: 0;
-	webkit-padding: 0;
-	moz-padding: 0;
 }
 hr {
 	height: 2px;
@@ -66,7 +64,7 @@ hr {
 }
 /* Navigation */
 #menu {
-	padding: 15px;
+	padding: 10px 0px 10px 0px;
 	transition: all 0.8s;
 }
 .menu-header{
@@ -104,6 +102,8 @@ hr {
 #menu-container{
 	display:flex; 
 	justify-content: space-around;
+  align-items: center;
+  width: 100%;
 }
 #icon-social{
 	align-self: flex-start;
@@ -243,7 +243,21 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin: 0 auto;
 }
 .collapsehiden{
-	visibility: hidden;
+	visibility: visible;
+	display:inline;
+  padding-left:3px;
+	padding-right:3px;
+	width: 20%;
+}
+.navbar-right-collapse {
+	display: flex;
+	padding-left: 3px;
+	padding-right: 3px;
+	justify-content: space-between;
+}
+ul.navbar-right-collapse li {
+	display: inline;
+	padding-right: 0.5em;
 }
 @media (max-width: 540px) {
   .buttondown  {
