@@ -1,7 +1,7 @@
 .Container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between;
   position: absolute;
   margin: 0 auto;
   padding: 0;
@@ -10,7 +10,7 @@
   border-bottom: 1px solid rgba(215, 225, 235, 0.6);
   text-align: center;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 600; */
 }
 
 .Main {
