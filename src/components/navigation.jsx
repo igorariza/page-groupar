@@ -7,18 +7,6 @@ export class Navigation extends Component {
         <div className="container" id="container-menu">
         <div id="menu-container">
           <div className="navbar-header">
-            {/* <button
-              type="button"
-              className="navbar-toggle collapsed"
-              data-toggle="collapse"
-              data-target="#bs-example-navbar-collapse-1"
-            >
-              {" "}
-              <span className="sr-only">Toggle navigation</span>{" "}
-              <span className="icon-bar"></span>{" "}
-              <span className="icon-bar"></span>{" "}
-              <span className="icon-bar"></span>{" "}
-            </button> */}
             <a className="navbar-nav page-scroll" href="#page-top">
               <div className="img-header-logo">
                 <img src="img/logo-groupar.png" className="imglogoheader" alt="groupar" />
@@ -26,18 +14,13 @@ export class Navigation extends Component {
               </div>
             </a>
           </div>
-
-          <div
-            className="collapse navbar-collapse"
-            id="bs-example-navbar-collapse-1"
-          >
-            
-            <ul className="navbar-nav navbar-right" id="icon-social">
+          {/* <div>
+          <ul className="navbar-nav navbar-right" id="icon-social">
               <li>
                 <a
                   href={this.props.data ? this.props.data.instagram : "https://instagram.com/groupar.co?igshid=4fc08yzrhgl2"}
                 >
-                  {/* <i className="fa fa-instagram"></i> */}
+                  
                   <img src="img/instagram.png" className="fa-instagram social-icon" alt="groupar" />
                 </a>
               </li>
@@ -59,31 +42,9 @@ export class Navigation extends Component {
                 </a>
               </li>
             </ul>
-            <ul className="nav navbar-nav navbar-right" id="border-separator">
-              <li>
-                <a href="#services" className="page-scroll">
-                  Servicios
-                </a>
-              </li>
-              <li>
-                <a href="#portfolio" className="page-scroll">
-                  Galeria
-                </a>
-              </li>
-              <li>
-                <a href="#about" className="page-scroll">
-                  Ingresar
-                </a>
-              </li>
-              <li>
-                <a href="#about" className="page-scroll">
-                  Nosotros
-                </a>
-              </li>              
-            </ul>
-            </div>
-            {/* Inicio navMenu para movil */}
-            <div className="collapsehiden">            
+          </div> */}
+          {/* Inicio navMenu para movil */}
+          <div className="collapsehiden">            
             <ul className="navbar-right-collapse" id="icon-social">
               <li>
                 <a
@@ -110,6 +71,34 @@ export class Navigation extends Component {
                   <img src="img/youtube.png" className="fa-youtube social-icon" alt="groupar" />
                 </a>
               </li>
+            </ul>
+            </div>
+
+          <div
+            className="collapse navbar-collapse"
+            id="bs-example-navbar-collapse-1"
+          >
+            <ul className="nav navbar-nav navbar-right" id="border-separator">
+              <li>
+                <a href="#services" className="page-scroll">
+                  Servicios
+                </a>
+              </li>
+              <li>
+                <a href="#portfolio" className="page-scroll">
+                  Galeria
+                </a>
+              </li>
+              <li>
+                <a href="#about" className="page-scroll">
+                 Nosotros
+                </a>
+              </li>
+              <li>
+                <a href="#about" className="page-scroll">
+                  Ingresar
+                </a>
+              </li>              
             </ul>
             </div>
             </div>
