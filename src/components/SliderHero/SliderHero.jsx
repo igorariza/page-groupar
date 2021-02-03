@@ -4,9 +4,7 @@ import HeroSlider, { Slide, Nav, OverlayContainer } from "hero-slider";
 import Wrapper from "../UI/Wrapper/Wrapper";
 import Title from "../UI/Title/Title";
 import DownButton from "../../components/UI/Icon/down"
-
-
-import Subtitle from "../UI/Subtitle/Subtitle";
+// import Subtitle from "../UI/Subtitle/Subtitle";
 
 // Images
 const bogliasco = "https://res.cloudinary.com/groupar/image/upload/v1612286509/groupar_mszmp6.png";
@@ -31,7 +29,7 @@ const app = () => {
       settings={{
         slidingDuration: 300,
         slidingDelay: 100,
-        shouldAutoplay: true,
+        shouldAutoplay: false,
         shouldDisplayButtons: false,
         autoplayDuration: 3000,
         height: "95vh"
@@ -45,12 +43,12 @@ const app = () => {
         </Wrapper>
       </OverlayContainer>
 
-      <Slide
+      {/* <Slide
         background={{
           backgroundImage: giauPass,
           backgroundAttachment: "fixed"
         }}
-      />
+      /> */}
 
       <Slide
         background={{

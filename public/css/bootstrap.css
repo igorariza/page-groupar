@@ -1310,18 +1310,19 @@ p {
     max-width: 100%;
   }
 }
-@media only screen and (max-width: 290px) {  
+@media only screen and (max-width: 540px) {
   .img-header-logo{
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     align-items: center;
     justify-content: space-between;
     margin-left: 5px;
   }
   .imglogoheader{
-    max-width: 50px;
+    max-width: 60px;
   }
   .imglogo{
+    /* visibility: hidden; */
     padding-top: 5px;
     max-width: 85px;
   }
@@ -4204,9 +4205,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     border-radius: 4px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 540px) {
   .navbar-header {
-    float: left;
+    display: flex;
   }
 }
 .navbar-collapse {
