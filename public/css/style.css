@@ -288,6 +288,23 @@ ul.navbar-right-collapse li {
 	#menu {
 		transition: all 0.8s;
 	}
+	#services{
+		overflow: hidden;
+		padding: 10px 0;
+	}
+	.container{
+		padding-right: 5px;
+    padding-left: 2px;
+    margin-right: auto;
+    margin-left: auto;
+	}
+	.section-title {
+    margin-bottom: 10px;
+}
+.useGridStyles{
+	display: flexbox;
+	flex-direction: column;
+}
 }
 .imglogo{
 	width: 170px;
@@ -397,7 +414,7 @@ header .intro-text {
 }
 /* Services Section */
 #services {
-	padding: 50px 0;
+	padding: 10px 0;
 	background: linear-gradient(to right, #ffffff 0%, #ffffff 100%);
 	color: #fff;
 }

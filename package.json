@@ -11,8 +11,14 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-google-font-loader": "^1.1.0",
+    "react-multi-carousel": "^2.6.1",
+    "react-responsive-carousel": "^3.2.11",
     "react-scripts": "^3.4.3",
-    "styled-components": "^5.2.0"
+    "react-visibility-sensor": "^5.1.1",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.3",
+    "styled-components": "^5.2.0",
+    "ua-parser-js": "^0.7.23"
   },
   "scripts": {
     "start": "react-scripts start",
