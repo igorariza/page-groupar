@@ -7,10 +7,10 @@ import DownButton from "../../components/UI/Icon/down"
 // import Subtitle from "../UI/Subtitle/Subtitle";
 
 // Images
-const bogliasco = "https://res.cloudinary.com/groupar/image/upload/v1612286509/groupar_mszmp6.png";
-const countyClare = "https://res.cloudinary.com/groupar/image/upload/v1612286509/groupar_mszmp6.png";
-const craterRock = "https://res.cloudinary.com/groupar/image/upload/v1612286509/groupar_mszmp6.png";
-const giauPass = "https://res.cloudinary.com/groupar/image/upload/v1612286509/groupar_mszmp6.png";
+// const bogliasco = "https://res.cloudinary.com/groupar/image/upload/v1612286509/groupar_mszmp6.png";
+// const countyClare = "https://res.cloudinary.com/groupar/image/upload/v1612286509/groupar_mszmp6.png";
+// const craterRock = "https://res.cloudinary.com/groupar/image/upload/v1612286509/groupar_mszmp6.png";
+// const giauPass = "https://res.cloudinary.com/groupar/image/upload/v1612286509/groupar_mszmp6.png";
 
 const app = () => {
   return (

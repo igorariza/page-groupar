@@ -3,8 +3,9 @@ import React, { Component } from "react";
 export class Gallery extends Component {
   render() {
     return (
-      <div id="portfolio" className="text-center">
-        <div className="container">
+      <> 
+      {/* <div id="portfolio" className="text-center"> */}
+        {/* <div className="container">
           <div className="section-title">
             <h2>Galeria de Imagenes</h2>
             <p>
@@ -205,8 +206,9 @@ export class Gallery extends Component {
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
+      </>
     );
   }
 }
