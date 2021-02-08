@@ -52,7 +52,7 @@ const app = () => {
 
       <Slide
         background={{
-          backgroundImage: bogliasco,
+          backgroundImage: require('../../assets/groupar.png'),
           backgroundAttachment: "fixed"
         }}
       />
