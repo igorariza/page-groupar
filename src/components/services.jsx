@@ -1,8 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 import Color from 'color';
-import GoogleFont from 'react-google-font-loader';
+// import GoogleFont from 'react-google-font-loader';
 import { makeStyles } from '@material-ui/core/styles';
-import NoSsr from '@material-ui/core/NoSsr';
+// import NoSsr from '@material-ui/core/NoSsr';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import CardActionArea from '@material-ui/core/CardActionArea';
@@ -129,10 +129,10 @@ export const Services = React.memo(function SolidGameCard() {
               <Grid item>
                 <CustomCard
                   classes={styles2}
-                  title={'Software'}
-                  subtitle={'Time to choose side!'}
+                  title={'Energías Limpias'}
+                  subtitle={'Panel solar orgánico - lámparas'}
                   image={
-                    'https://images.unsplash.com/photo-1601342630314-8427c38bf5e6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=637&q=80'
+                    require('../assets/solarEnergy.jpg')
                   }
                 />
               </Grid>
