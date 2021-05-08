@@ -48,7 +48,7 @@ export class Navigation extends Component {
             <ul className="navbar-right-collapse" id="icon-social">
               <li>
                 <a
-                  href={this.props.data ? this.props.data.instagram : "https://instagram.com/ggroupar?igshid=9fu5untijqk5"}
+                  href={this.props.data ? this.props.data.instagram : "https://instagram.com/groupar.co?igshid=vzxrpqkmxcox"}
                 >
                   {/* <i className="fa fa-instagram"></i> */}
                   <img src="img/instagram.png" className="fa-instagram social-icon" alt="groupar" />
