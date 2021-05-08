@@ -3,13 +3,14 @@ import React from "react";
 import HeroSlider, { Slide, Nav, OverlayContainer } from "hero-slider";
 import Wrapper from "../UI/Wrapper/Wrapper";
 import Title from "../UI/Title/Title";
-import Subtitle from "../UI/Subtitle/Subtitle";
+import DownButton from "../../components/UI/Icon/down"
+// import Subtitle from "../UI/Subtitle/Subtitle";
 
 // Images
-const bogliasco = "https://res.cloudinary.com/groupar/image/upload/v1603228791/groupar_f74hml.png";
-const countyClare = "https://res.cloudinary.com/groupar/image/upload/v1603228791/groupar_f74hml.png";
-const craterRock = "https://res.cloudinary.com/groupar/image/upload/v1603228791/groupar_f74hml.png";
-const giauPass = "https://res.cloudinary.com/groupar/image/upload/v1603228791/groupar_f74hml.png";
+// const bogliasco = "https://res.cloudinary.com/groupar/image/upload/v1612286509/groupar_mszmp6.png";
+// const countyClare = "https://res.cloudinary.com/groupar/image/upload/v1612286509/groupar_mszmp6.png";
+// const craterRock = "https://res.cloudinary.com/groupar/image/upload/v1612286509/groupar_mszmp6.png";
+// const giauPass = "https://res.cloudinary.com/groupar/image/upload/v1612286509/groupar_mszmp6.png";
 
 const app = () => {
   return (
@@ -28,34 +29,35 @@ const app = () => {
       settings={{
         slidingDuration: 300,
         slidingDelay: 100,
-        shouldAutoplay: true,
+        shouldAutoplay: false,
         shouldDisplayButtons: false,
         autoplayDuration: 3000,
         height: "95vh"
       }}
     >
       <OverlayContainer>
-        {/* <Wrapper>
-          <Title>Slider</Title>
-          <Subtitle>Slides' background attachment set to fixed</Subtitle>
-        </Wrapper> */}
+        <Wrapper>
+          <Title txt="Tú Proyecto necesita un equipo brillante!" />
+          <DownButton />
+          {/* <Subtitle>Slides' background attachment set to fixed</Subtitle> */}
+        </Wrapper>
       </OverlayContainer>
 
-      <Slide
+      {/* <Slide
         background={{
           backgroundImage: giauPass,
           backgroundAttachment: "fixed"
         }}
-      />
+      /> */}
 
       <Slide
         background={{
-          backgroundImage: bogliasco,
+          backgroundImage: require('../../assets/groupar.png'),
           backgroundAttachment: "fixed"
         }}
       />
 
-      <Slide
+      {/* <Slide
         background={{
           backgroundImage: countyClare,
           backgroundAttachment: "fixed"
@@ -67,7 +69,7 @@ const app = () => {
           backgroundImage: craterRock,
           backgroundAttachment: "fixed"
         }}
-      />
+      /> */}
 
       <Nav />
     </HeroSlider>

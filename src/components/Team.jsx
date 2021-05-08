@@ -3,7 +3,8 @@ import React, { Component } from "react";
 export class Team extends Component {
   render() {
     return (
-      <div id="team" className="text-center">
+      <> 
+      {/* <div id="team" className="text-center">
         <div className="container">
           <div className="col-md-8 col-md-offset-2 section-title">
             <h2>Conoce nuestro equipo</h2>
@@ -29,7 +30,8 @@ export class Team extends Component {
               : "loading"}
           </div>
         </div>
-      </div>
+      </div> */}
+      </>
     );
   }
 }

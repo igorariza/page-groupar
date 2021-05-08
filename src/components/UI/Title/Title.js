@@ -5,8 +5,8 @@ import classes from './Title.module.css'
 
 const title = (props) => {
   return (
-    <h1 className={classes.Container}>
-      {props.children}
+    <h1 className={classes.TitleContainer}>
+      {props.txt}
     </h1>
   )
 }

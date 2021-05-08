@@ -13,7 +13,7 @@ export class Contact extends Component {
         <div id="footer">
           <div className="container text-center">
             <p>
-              &copy; 2020 {" "}
+              &copy; 2021 {" "}
               <a href="http://www.groupar.co" rel="nofollow">
                 Groupar
               </a>

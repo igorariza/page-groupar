@@ -1,8 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 import Color from 'color';
-import GoogleFont from 'react-google-font-loader';
+// import GoogleFont from 'react-google-font-loader';
 import { makeStyles } from '@material-ui/core/styles';
-import NoSsr from '@material-ui/core/NoSsr';
+// import NoSsr from '@material-ui/core/NoSsr';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import CardActionArea from '@material-ui/core/CardActionArea';
@@ -11,13 +11,13 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import { useFourThreeCardMediaStyles } from '@mui-treasury/styles/cardMedia/fourThree';
 
-const useGridStyles = makeStyles(({ breakpoints }) => ({
-  root: {
-    [breakpoints.up('md')]: {
-      justifyContent: 'center',
-    },
-  },
-}));
+// const useGridStyles = makeStyles(({ breakpoints }) => ({
+//   root: {
+//     [breakpoints.up('md')]: {
+//       justifyContent: 'center',
+//     },
+//   },
+// }));
 
 const useStyles = makeStyles(() => ({
   actionArea: {
@@ -78,7 +78,7 @@ const CustomCard = ({ classes, image, title, subtitle }) => {
 };
 
 export const Services = React.memo(function SolidGameCard() {
-  const gridStyles = useGridStyles();
+  // const gridStyles = useGridStyles();
   const styles = useStyles({ color: '#203f52' });
   const styles2 = useStyles({ color: '#4d137f' });
   const styles3 = useStyles({ color: '#ff9900' });
@@ -93,29 +93,49 @@ export const Services = React.memo(function SolidGameCard() {
             dapibus leonec.
             </p> */}
         </div>
-        <div className="row">
+        <div className="gridService">
           <>
-            <Grid classes={gridStyles} container spacing={3} wrap={'nowrap'}>
+            <Grid className="useGridStyles" container spacing={4} wrap={'nowrap'}>
               <Grid item>
                 <CustomCard
                   classes={styles}
-                  title={'SIGE'}
-                  subtitle={'VÍDEO Y FOTO AÉREA CON DRON'}
+                  title={'MARKETING DIGITAL'}
+                  subtitle={'CREACIÓN Y POSICIONAMIENTO DE MARCA'}
+                  image={
+                    'https://images.unsplash.com/photo-1601342630314-8427c38bf5e6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=637&q=80'
+                  }
+                />
+              </Grid>
+              <Grid item>
+                <CustomCard
+                  classes={styles3}
+                  title={'PAGINA Y APP'}
+                  subtitle={'Movíl y web'}
+                  image={
+                    require('../assets/webbApp.jpg')
+                  }
+                />
+              </Grid>
+              <Grid item>
+                <CustomCard
+                  classes={styles4}
+                  title={'FOTOGRAMENTRÍA CON DRONES'}
+                  subtitle={'Topografía - Análisis de Suelos en 3D'}
                   image={
                     'https://images.unsplash.com/photo-1512696316862-6dd7a028a2af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80'
                   }
                 />
               </Grid>
-              {/* <Grid item>
+              <Grid item>
                 <CustomCard
                   classes={styles2}
-                  title={'Software'}
-                  subtitle={'Time to choose side!'}
+                  title={'Energías Limpias'}
+                  subtitle={'Panel solar orgánico - lámparas'}
                   image={
-                    'https://images.unsplash.com/photo-1601342630314-8427c38bf5e6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=637&q=80'
+                    require('../assets/solarEnergy.jpg')
                   }
                 />
-              </Grid> */}
+              </Grid>
             </Grid>
           </>
           {/* {this.props.data
