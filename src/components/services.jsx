@@ -94,7 +94,6 @@ export const Services = React.memo(function SolidGameCard() {
             </p> */}
         </div>
         <div className="gridService">
-          <>
             <Grid className="useGridStyles" container spacing={4} wrap={'nowrap'}>
               <Grid item>
                 <CustomCard
@@ -137,7 +136,6 @@ export const Services = React.memo(function SolidGameCard() {
                 />
               </Grid>
             </Grid>
-          </>
           {/* {this.props.data
               ? this.props.data.map((d, i) => (
                   <div  key={`${d.name}-${i}`} className="col-md-4">
